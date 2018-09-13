@@ -1,80 +1,28 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'install',
-1 verbose cli   '@types/linebot',
-1 verbose cli   '--save' ]
+1 verbose cli   'start' ]
 2 info using npm@1.4.9
 3 info using node@v7.9.0
-4 verbose readDependencies using package.json deps
-5 verbose cache add [ '@types/linebot', null ]
-6 verbose cache add name=undefined spec="@types/linebot" args=["@types/linebot",null]
-7 verbose parsed url Url {
-7 verbose parsed url   protocol: null,
-7 verbose parsed url   slashes: null,
-7 verbose parsed url   auth: null,
-7 verbose parsed url   host: null,
-7 verbose parsed url   port: null,
-7 verbose parsed url   hostname: null,
-7 verbose parsed url   hash: null,
-7 verbose parsed url   search: null,
-7 verbose parsed url   query: null,
-7 verbose parsed url   pathname: '@types/linebot',
-7 verbose parsed url   path: '@types/linebot',
-7 verbose parsed url   href: '@types/linebot' }
-8 verbose cache add name="" spec="types/linebot" args=["","types/linebot"]
-9 verbose parsed url Url {
-9 verbose parsed url   protocol: null,
-9 verbose parsed url   slashes: null,
-9 verbose parsed url   auth: null,
-9 verbose parsed url   host: null,
-9 verbose parsed url   port: null,
-9 verbose parsed url   hostname: null,
-9 verbose parsed url   hash: null,
-9 verbose parsed url   search: null,
-9 verbose parsed url   query: null,
-9 verbose parsed url   pathname: 'types/linebot',
-9 verbose parsed url   path: 'types/linebot',
-9 verbose parsed url   href: 'types/linebot' }
-10 silly lockFile 0281302d-types-linebot types/linebot
-11 verbose lock types/linebot C:\Users\GODtea\AppData\Roaming\npm-cache\0281302d-types-linebot.lock
-12 info maybeGithub Attempting types/linebot from git://github.com/types/linebot
-13 silly lockFile c2b2c263-git-github-com-types-linebot git://github.com/types/linebot
-14 verbose lock git://github.com/types/linebot C:\Users\GODtea\AppData\Roaming\npm-cache\c2b2c263-git-github-com-types-linebot.lock
-15 verbose addRemoteGit [ 'git://github.com/types/linebot', 'master' ]
-16 warn `git config --get remote.origin.url` returned wrong result (git://github.com/types/linebot)
-17 verbose git clone git://github.com/types/linebot Cloning into bare repository 'C:\Users\GODtea\AppData\Roaming\npm-cache\_git-remotes\git-github-com-types-linebot-c2b2c263'...
-17 verbose git clone git://github.com/types/linebot fatal: remote error:
-17 verbose git clone git://github.com/types/linebot   Repository not found.
-18 silly lockFile c2b2c263-git-github-com-types-linebot git://github.com/types/linebot
-19 silly lockFile c2b2c263-git-github-com-types-linebot git://github.com/types/linebot
-20 info maybeGithub Attempting types/linebot from git+ssh://git@github.com:types/linebot
-21 silly lockFile e7ecd450-git-github-com-types-linebot git@github.com:types/linebot
-22 verbose lock git@github.com:types/linebot C:\Users\GODtea\AppData\Roaming\npm-cache\e7ecd450-git-github-com-types-linebot.lock
-23 verbose addRemoteGit [ 'git@github.com:types/linebot', 'master' ]
-24 warn `git config --get remote.origin.url` returned wrong result (git@github.com:types/linebot)
-25 error git clone git@github.com:types/linebot Cloning into bare repository 'C:\Users\GODtea\AppData\Roaming\npm-cache\_git-remotes\git-github-com-types-linebot-e7ecd450'...
-25 error git clone git@github.com:types/linebot Host key verification failed.
-25 error git clone git@github.com:types/linebot fatal: Could not read from remote repository.
-25 error git clone git@github.com:types/linebot
-25 error git clone git@github.com:types/linebot Please make sure you have the correct access rights
-25 error git clone git@github.com:types/linebot and the repository exists.
-26 silly lockFile e7ecd450-git-github-com-types-linebot git@github.com:types/linebot
-27 silly lockFile e7ecd450-git-github-com-types-linebot git@github.com:types/linebot
-28 silly lockFile 0281302d-types-linebot types/linebot
-29 silly lockFile 0281302d-types-linebot types/linebot
-30 error addLocal Could not install types/linebot
-31 error Error: ENOENT: no such file or directory, stat 'c:\Users\GODtea\Desktop\line\types\linebot'
-32 error If you need help, you may report this *entire* log,
-32 error including the npm and node versions, at:
-32 error     <http://github.com/npm/npm/issues>
-33 error System Windows_NT 6.3.9600
-34 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "@types/linebot" "--save"
-35 error cwd c:\Users\GODtea\Desktop\line
-36 error node -v v7.9.0
-37 error npm -v 1.4.9
-38 error path c:\Users\GODtea\Desktop\line\types\linebot
-39 error syscall stat
-40 error code ENOENT
-41 error errno -4058
-42 verbose exit [ -4058, true ]
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart line2@0.0.0
+6 info start line2@0.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info line2@0.0.0 Failed to exec start script
+9 error line2@0.0.0 start: `node ./bin/www`
+9 error Exit status 1
+10 error Failed at the line2@0.0.0 start script.
+10 error This is most likely a problem with the line2 package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     node ./bin/www
+10 error You can get their info via:
+10 error     npm owner ls line2
+10 error There is likely additional logging output above.
+11 error System Windows_NT 6.3.9600
+12 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+13 error cwd C:\Users\GODtea\Desktop\line
+14 error node -v v7.9.0
+15 error npm -v 1.4.9
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]

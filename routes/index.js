@@ -3,8 +3,8 @@ var express = require('express');
 
 var bot = linebot({
     channelId: '1606113026',
-    channelSecret: '01767c59e25d4b641a341f3ed8d09eaf',
-    channelAccessToken: 'FllnchEhwFEwud71yyWolIk6CuhA9i1bxQREIbqRTKfXY2WwLpLoZC5qKd6UeslOw3i2w/HDYVhc5kl8dvyzyzXTFmNGk+W9GqiVNL64nzjNB39mtZoNhwlonjJ1TkOMk4y8e4RFOuJ8tkU1+V0zjgdB04t89/1O/w1cDnyilFU='
+    channelSecret: 'b5fc986662eebdccf92299cfbab67fee',
+    channelAccessToken: 'wdinfJmfUuk8xey78LY3dCxh7+R9YuxeFW5oCszWGVI8saDW0DiLRHI7ijYcNijvw3i2w/HDYVhc5kl8dvyzyzXTFmNGk+W9GqiVNL64nzhO1lYzjiLnHEYLMcVFjJSBBc/6gAoXVsEQ6saw8PkFCQdB04t89/1O/w1cDnyilFU='
 });
 
 //這一段的程式是專門處理當有人傳送文字訊息給LineBot時，我們的處理回應
